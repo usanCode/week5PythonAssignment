@@ -47,7 +47,7 @@ print(dog2.race)
 
 
     
-for animal in [dog1, cat1]:
+for animal in [dog1,dog2, cat1]:
    animal.speak()
 
 
