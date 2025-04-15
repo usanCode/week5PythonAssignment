@@ -58,5 +58,30 @@ print(cat1.legs)
 
 #answer2
 
+#Create a program that includes animals or vehicles with the same action (like move()). 
+#However, make each class define move() differently (for example, Car.move() 
+# prints "Driving" 🚗, while Plane.move() prints "Flying" ✈️)
+
+class Human:
+    def speak(self):
+        print("Animal is speaking")
+
+class Kenyan(Human):
+    def speak(self):
+        print("Jambo!")
+
+class English(Human):
+    def speak(self):
+        print("Hello!")
+
+class Congolese(Human):
+    def speak(self):
+        print("Mbote!")
+
+Humanity = [Kenyan(), English(), Congolese()]
+
+for Human in Humanity:
+    Human.speak()
+    
 
 
