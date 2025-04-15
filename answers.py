@@ -56,3 +56,7 @@ cat1 = Cats(4)
 print(cat1.legs)
 
 
+#answer2
+
+
+
